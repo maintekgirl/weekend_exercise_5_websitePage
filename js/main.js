@@ -10,3 +10,4 @@ function changeElementColor () {
  /* let btnArticle = document.querySelector("#btn");
 
   btnArticle.addEventListener("click", () => btnArticle.style.backgroundColor="#ff0d7e")*/
+  

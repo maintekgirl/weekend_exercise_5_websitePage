@@ -9,22 +9,31 @@
     height: 90vh;
     /*max-width: 1024px;*/
     /*margin: 0 auto;*/
+    
 
    background-image: url(./images/back4.jpg);
    background-position: center;
    background-size: cover;
    color: antiquewhite;
+
+
 }
 
 .logo{
     width: 50px;
+    
 }
 
 .header-main{
     background-color: rgb(5, 29, 29);
 
     padding-top: 1em;
+    padding-left: 5em;
+    padding-right: 5em;
+    padding-bottom: 1em;
+
     width: 100%;
+
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,7 +42,7 @@
 .header-navbar{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 40px;
 }
 
 .menu-options{
@@ -42,6 +51,22 @@
     list-style-type: none;
     align-items: flex-end;   /*/???/*/
 }
+
+.menu-options a {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    color: #a9a5a6;
+    text-decoration: none;
+  }
+  
+.active a {
+    font-weight: 600;
+    color: #ffffff;
+  }
+
 
 .article-main{
     display: flex;
